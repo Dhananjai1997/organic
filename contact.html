@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact</title>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+
+  <!-- font icon -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- style css -->
+  <link rel="stylesheet" href="style.css" type="text/css">
+
+  <!-- Include the Google Translate API script -->
+  <script type="text/javascript"
+    src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+
+</head>
+
+<body onload="myfunction()">
+  <!-- preloader -->
+  <div id="loading"></div>
+
+
+
+  <!-- navbar start -->
+
+  <header>
+    <div class="top-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="top-left">
+              <ul>
+                <li><a href="mailto:organic@gmail.com "><span><i class="fa fa-envelope"></i></span><span
+                      class="mob-text-hide">organic@gmail.com</span> </a></li>
+                <li><a href="tel:01234567"><span><i class="fa fa-phone"></i></span><span class="mob-text-hide">+91
+                      88266-81403</span> </a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="top-right">
+              <div id="google_translate_element"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg  bg-light  shadow">
+      <div class="container">
+        <a class="navbar-brand" href="#">Organic<span class="text-danger">.</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+            <li class="nav-item px-2">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown px-2">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Product
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="grain-and-cereal.html">Grain & Cereal</a></li>
+                <li><a class="dropdown-item" href="fruit.html">Fruits</a></li>
+                <li><a class="dropdown-item" href="vegetable.html">Vegetables</a></li>
+                <li><a class="dropdown-item" href="spice.html">Spices</a></li>
+                <li><a class="dropdown-item" href="pulse.html">Pulses</a></li>
+                <li><a class="dropdown-item" href="dry-fruit.html">Dry Fruits</a></li>
+              </ul>
+            </li>
+            <!-- <li class="nav-item px-2">
+              <a class="nav-link" href="blog.html">Blogs</a>
+            </li> -->
+            <li class="nav-item px-2">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </nav>
+
+  </header>
+
+  <!-- navbar end -->
+
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact">
+    <div class="container" data-aos="fade-up">
+
+      <div class="para-align py-3">
+        <h2 class="title-head">Contact</h2>
+        <h5 class="text-danger">Need Help? Contact Us</h5>
+      </div>
+
+      <div class="row gy-4">
+
+        <div class="col-md-6">
+          <div class=" info-item  d-flex align-items-center">
+            <button class="btn btn-outline-danger rounded-circle me-2">
+              <i class="fa fa-map-o" style="font-size:50px;"></i>
+            </button>
+            <div>
+              <h3>Our Address</h3>
+              <p>Faridabad HR-121004</p>
+            </div>
+          </div>
+        </div><!-- End Info Item -->
+
+        <div class="col-md-6">
+          <div class="info-item d-flex align-items-center">
+            <button class="btn btn-outline-danger rounded-circle me-2">
+              <i class="fa fa-envelope-o" style="font-size:50px;"></i>
+            </button>
+            <div>
+              <h3>Email Us</h3>
+              <p>dhananjaiyadav1997@gmail.com</p>
+            </div>
+          </div>
+        </div><!-- End Info Item -->
+
+        <div class="col-md-6">
+          <div class="info-item  d-flex align-items-center">
+            <button class="btn btn-outline-danger rounded-circle me-2">
+              <i class="fa fa-phone" style="font-size:50px;"></i>
+            </button>
+            <div>
+              <h3>Call Us</h3>
+              <p>+91 88266-81403</p>
+            </div>
+          </div>
+        </div><!-- End Info Item -->
+
+        <div class="col-md-6">
+          <div class="info-item  d-flex align-items-center">
+            <button class="btn btn-outline-danger rounded-circle me-2">
+              <i class="fa fa-share-alt" style="font-size:50px;"></i>
+            </button>
+            <div>
+              <h3>Opening Hours</h3>
+              <div><strong>Mon-Sat:</strong> 11AM - 23PM;
+                <strong>Sunday:</strong> Closed
+              </div>
+            </div>
+          </div>
+        </div><!-- End Info Item -->
+
+      </div>
+
+      <form action="forms/contact.php" method="post" role="form" class="php-email-form p-3 p-md-4">
+        <div class="row">
+          <div class="col-xl-6 form-group">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="col-xl-6 form-group">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+        </div>
+        <div class="my-3">
+          <div class="loading">Loading</div>
+          <div class="error-message"></div>
+          <div class="sent-message">Your message has been sent. Thank you!</div>
+        </div>
+        <div class="text-center"><button class="btn btn-outline-danger rounded">Send Message</button></div>
+      </form><!--End Contact Form -->
+
+    </div>
+  </section><!-- End Contact Section -->
+
+
+  <div class="pt-5">
+    <iframe class="location" 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7023.5406870955785!2d77.32602368948828!3d28.33555094668699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cdba00efd7849%3A0xc7898d7525d7e599!2sBhatia%20Colony%2C%20Kundan%20Colony%2C%20Sector%202%2C%20Faridabad%2C%20Haryana%20121004!5e0!3m2!1sen!2sin!4v1709537033638!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div><!-- End Google Maps -->
+
+
+  <!-- footer -->
+  <div class="container-fluid footer">
+    <div class="container">
+      <!-- Footer -->
+      <footer class="footer-section text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Links -->
+          <section class="">
+            <!--Grid row-->
+            <div class="row">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h3>Organic.</h3>
+                <p>
+                  Organic farming is the production of food without the use of synthetic chemicals or genetically
+                  modified components.
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <hr class="w-100 clearfix d-md-none" />
+
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+                <p>
+                  <a class="footer-link text-light" href="fruit.html">Fruits</a>
+                </p>
+                <p>
+                  <a class="footer-link text-light" href="vegetable.html">Vegetables</a>
+                </p>
+                <p>
+                  <a class="footer-link text-light" href="pulse.html">Pulses</a>
+                </p>
+                <p>
+                  <a class="footer-link text-light" href="spice.html">Spices</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <hr class="w-100 clearfix d-md-none" />
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">
+                  Useful links
+                </h6>
+                <p>
+                  <a class="footer-link text-light" href="index.html">Home</a>
+                </p>
+                <p>
+                  <a class="footer-link text-light" href="about.html">About</a>
+                </p>
+                <p>
+                  <a class="footer-link text-light" href="#">Product</a>
+                </p>
+                <p>
+                  <a class="footer-link text-light" href="contact.html">Help</a>
+                </p>
+              </div>
+
+              <!-- Grid column -->
+              <hr class="w-100 clearfix d-md-none" />
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                <p><i class="fa fa-home footer-icon"></i> Faridabad HR-121004</p>
+                <p><i class="fa fa-envelope footer-icon"></i> organic.@gmail.com</p>
+                <p><i class="fa fa-phone footer-icon"></i> + 01 88266-81403</p>
+                <!-- <p><i class="fa fa-print" style="font-size:24px; margin-right: 5px;"></i></i> + 01 234 567 89</p> -->
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!--Grid row-->
+          </section>
+          <!-- Section: Links -->
+
+          <hr class="my-3">
+
+          <!-- Section: Copyright -->
+          <section class="p-3 pt-0">
+            <div class="row d-flex align-items-center">
+              <!-- Grid column -->
+              <div class="col-md-7 col-lg-8 text-center text-md-start">
+                <!-- Copyright -->
+                <div class="p-3">
+                  © 2020 Copyright :
+                  <a class="text-white" href="#"> Dhananjay Yadav</a>
+                </div>
+                <!-- Copyright -->
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                <!-- Facebook -->
+                <a href="#" class="text-white me-4">
+                  <i class="fa fa-facebook-f" style="font-size:24px; color:white"></i>
+                </a>
+                <a href="#" class="text-white me-4">
+                  <i class="fa fa-instagram" style="font-size:24px ;color:white"></i>
+                </a>
+                <!-- <a href="#" class="text-white me-4">
+                            <i class="fa fa-twitter" style="font-size:24px; color:white"></i>
+                          </a>
+                          <a href="#" class="text-white me-4">
+                            <i class="fa fa-pinterest-p" style="font-size:24px;color:white"></i>
+                          </a>
+                          <a href="#" class="text-white me-4">
+                            <i class="fa fa-linkedin" style="font-size:24px;color:white"></i>
+                          </a>
+                          <a href="#" class="text-white me-4">
+                            <i class="fa fa-google-plus" style="font-size:24px;color:white"></i>
+                          </a> -->
+              </div>
+              <!-- Grid column -->
+            </div>
+          </section>
+          <!-- Section: Copyright -->
+        </div>
+        <!-- Grid container -->
+      </footer>
+      <!-- Footer -->
+    </div>
+  </div>
+  <!-- footer -->
+
+  <!-- script -->
+
+  <script>
+    //  google translate
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+    }
+
+
+    var preloader = document.getElementById('loading');
+    function myfunction() {
+      preloader.style.display = 'none';
+    }
+
+    const myCarouselElement = document.querySelector('#myCarousel')
+    const carousel = new bootstrap.Carousel(myCarouselElement, {
+      interval: 1000,
+      wrap: true,
+    })
+
+  </script>
+  <!-- script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="swiper-bundle.min.js" type="text/css">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- popper -->
+
+
+</body>
+
+</html>
